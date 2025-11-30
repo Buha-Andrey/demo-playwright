@@ -3,9 +3,9 @@ import { test, expect } from '@playwright/test';
 test('has title', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
-  // Expect a title "to contain" a substring.
+  // Expect a title "to contain" a substring. just fun
   await expect(page).toHaveTitle(/Playwright/);
-  // timeout 5 secs
+  // timeout 5 secs 
   // await page.waitForTimeout(5000);
   
 });
